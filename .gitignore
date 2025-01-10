@@ -163,3 +163,4 @@ cython_debug/
 
 .vscode/
 
+notebooks/deepseek-v3/keys.py
