@@ -13,4 +13,15 @@ response = client.chat.completions.create(
     stream=False
 )
 
-print(response.choices[0].message.content)
+
+# response = client.chat.completions.create(
+#     model="deepseek-reasoner",
+#     messages=[
+#         {"role": "system", "content": "You are a helpful assistant"},
+#         {"role": "user", "content": "Hello"},
+#     ],
+#     stream=False
+# )
+
+# print(response.choices[0].message.content)
+print(response.choices)

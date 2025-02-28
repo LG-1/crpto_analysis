@@ -1,43 +1,43 @@
 ### 中文总结：
-1. **日本财政赤字**：日本政府估算显示，2025财年国家和地方政府的基本财政平衡将出现赤字。
-2. **波罗的海管道安全**：波兰发现船只围绕波罗的海管道转悠，该管道负责挪威和波兰之间的天然气输送。
-3. **俄伊战略伙伴关系**：俄罗斯总统新闻秘书表示，俄罗斯非常重视与伊朗签署全面战略伙伴关系条约。
-4. **洛杉矶山火**：特朗普称洛杉矶山火破坏程度比“核武器击中还严重”，加州山火持续肆虐。
-5. **欧洲汽车行业挑战**：标普警告，欧洲汽车行业的挑战可能损害中欧经济及贷款机构的资产质量。
-6. **阿曼原油价格上涨**：中东原油基准阿曼原油价格升至2022年11月以来最高点。
-7. **印尼社交媒体年龄限制**：印尼通信部长表示，正在考虑为社交媒体用户设定最低年龄限制。
-8. **乌克兰延长战时状态**：乌克兰总统泽连斯基提交法律草案，拟将战时状态和总动员令再延长90天。
-9. **乌克兰无人机袭击**：乌克兰对俄罗斯发动大规模无人机袭击，多地遭到袭击。
-10. **美国对华芯片限制**：中国半导体行业协会表示，美国对华出口限制造成了美国芯片的不安全性和不可靠性。
-11. **英国国债收益率下跌**：英国国债收益率下跌，投资者在通胀数据公布前保持谨慎。
-12. **印度经济增长预期**：印度预计下一财年名义GDP增长将达10.3%-10.5%。
-13. **以色列空袭加沙**：以色列军队空袭加沙多地，造成至少18人死亡。
-14. **俄罗斯与越南数字合作**：俄罗斯邀请越南开展联合数字技术项目，包括人工智能和大数据。
-15. **美国洛杉矶大火**：洛杉矶大火已致25人死亡，经济损失或达2500亿美元。
-16. **加沙停火协议**：加沙停火协议正在“最终确定”，哈马斯和以色列接近达成协议。
-17. **波兰推动俄罗斯LNG禁令**：波兰和其他欧盟国家推动对俄罗斯液化天然气的禁令。
-18. **中日执政党交流**：中日执政党交流机制第九次会议在北京举行，讨论中日关系。
-19. **美国AI出口管制**：美国商务部发布新的AI相关出口管制措施，限制对华先进芯片出口。
-20. **韩国总统弹劾案**：韩国总统尹锡悦弹劾案进入法庭辩论阶段，宪法法院将决定其命运。
+1. **美国农业部公布10亿美元计划应对“蛋荒”**：美国农业部将投入10亿美元应对禽流感和高鸡蛋价格问题，计划削减浪费性支出并投资长期解决方案。
+2. **韩国收紧家庭借贷规则**：韩国将从下半年起收紧家庭借贷规则，控制债务增长，家庭债务已达1.34万亿美元。
+3. **特斯拉FSD在中国价格高于美国**：特斯拉在中国市场的FSD功能定价为6.4万元，高于美国的5.8万元，因中国政策法规和本土化需求。
+4. **哈马斯移交巴勒斯坦囚犯**：哈马斯已将97名巴勒斯坦囚犯移交给埃及。
+5. **乌克兰首都基辅多次爆炸**：乌克兰首都基辅多次响起爆炸声，局势紧张。
+6. **全球光伏装机预测增长**：2025年全球光伏新增装机预计同比增长10%，新兴市场需求增长迅速。
+7. **印度股市预测上涨**：预计到2025年年中，印度Nifty 50指数将升至24000点。
+8. **哈马斯移交以方被扣押人员遗体**：哈马斯移交4具以方被扣押人员遗体，遗体将通过红十字国际委员会转交以色列。
+9. **星链或取代Verizon为FAA升级空域系统**：美国联邦航空管理局（FAA）可能取消与Verizon的合同，转而使用SpaceX的星链。
+10. **特朗普与英国首相举行新闻发布会**：特朗普将于美国东部时间周四下午2点与英国首相举行新闻发布会。
+11. **美联社等媒体批白宫采访禁令**：美联社、路透社、彭博社联合声明批评白宫限制记者采访内阁会议，称其损害信息传播。
+12. **美国证监会与孙宇晨寻求和解**：波场创始人孙宇晨与美国证监会（SEC）寻求和解，暂停2023年的诉讼。
+13. **日本米价暴涨90%**：日本米价比去年同期暴涨90%，引发民众不满。
+14. **美国司法部阻止特朗普解冻对外援助资金**：美国司法部提交紧急申请，阻止特朗普政府解冻近20亿美元对外援助资金。
+15. **古巴民众集会谴责美国封锁**：数万古巴民众集会谴责美国对古巴的敌对政策，要求归还关塔那摩领土。
+16. **联合国警告艾滋病防治停滞**：联合国警告，美国资金中断导致全球多地艾滋病防治停滞，威胁感染者健康。
+17. **欧盟将对贸易壁垒作出坚决回应**：欧盟委员会表示将对美国加征关税采取坚决回应，强调欧盟是全球最大自由贸易市场。
+18. **特朗普政府取消大部分对外援助合同**：特朗普政府取消大多数对外援助合同，坚称无法按法庭命令支付费用。
+19. **特朗普称可能无法促成俄乌和平**：特朗普表示，俄乌和平可能无法实现，但他希望和平能够达成。
+20. **全球气温回暖后或将降温**：中国中东部气温回暖，但3月初强冷空气将导致气温剧烈下跌。
 
 ### 英文翻译：
-1. **Japan's Fiscal Deficit**: The Japanese government estimates that the basic fiscal balance of the national and local governments will be in deficit in the 2025 fiscal year.
-2. **Baltic Pipeline Security**: Poland has discovered ships loitering around the Baltic pipeline, which is responsible for transporting natural gas between Norway and Poland.
-3. **Russia-Iran Strategic Partnership**: Russian Presidential Press Secretary stated that Russia highly values the signing of a comprehensive strategic partnership treaty with Iran.
-4. **Los Angeles Wildfires**: Trump described the damage from the Los Angeles wildfires as "worse than a nuclear strike," as the wildfires continue to rage in California.
-5. **Challenges in European Auto Industry**: S&P warns that challenges in the European auto industry could harm the economies of Central Europe and the asset quality of lending institutions.
-6. **Oman Crude Oil Price Rise**: The benchmark Middle Eastern crude oil price for Oman has risen to its highest level since November 2022.
-7. **Indonesia's Social Media Age Limit**: Indonesia's Communications Minister stated that the country is considering setting a minimum age limit for social media users.
-8. **Ukraine Extends Martial Law**: Ukrainian President Zelensky submitted a draft law to extend martial law and general mobilization for another 90 days.
-9. **Ukrainian Drone Attacks**: Ukraine launched a large-scale drone attack on Russia, targeting multiple regions.
-10. **US Chip Export Restrictions to China**: The China Semiconductor Industry Association stated that US export restrictions on China have made American chips unreliable and insecure.
-11. **UK Bond Yields Fall**: UK bond yields fell as investors remained cautious ahead of inflation data release.
-12. **India's Economic Growth Forecast**: India expects nominal GDP growth to reach 10.3%-10.5% in the next fiscal year.
-13. **Israeli Airstrikes in Gaza**: Israeli military airstrikes in Gaza resulted in at least 18 deaths.
-14. **Russia-Vietnam Digital Cooperation**: Russia invited Vietnam to collaborate on joint digital technology projects, including AI and big data.
-15. **Los Angeles Wildfires**: The Los Angeles wildfires have killed 25 people, with economic losses potentially reaching $250 billion.
-16. **Gaza Ceasefire Agreement**: A Gaza ceasefire agreement is being "finalized," with Hamas and Israel close to reaching a deal.
-17. **Poland Pushes for Russian LNG Ban**: Poland and other EU countries are pushing for a ban on Russian liquefied natural gas.
-18. **China-Japan Ruling Party Exchange**: The ninth meeting of the China-Japan ruling party exchange mechanism was held in Beijing, discussing bilateral relations.
-19. **US AI Export Controls**: The US Department of Commerce issued new AI-related export control measures, restricting the export of advanced chips to China.
-20. **South Korean President Impeachment Case**: The impeachment case against South Korean President Yoon Suk-yeol entered the court debate phase, with the Constitutional Court to decide his fate.
+1. **US Department of Agriculture Announces $1 Billion Plan to Address Egg Shortage**: The USDA will invest $1 billion to tackle avian flu and high egg prices, cutting wasteful spending and investing in long-term solutions.
+2. **South Korea Tightens Household Borrowing Rules**: Starting in the second half of the year, South Korea will tighten household borrowing rules to control debt growth, with household debt reaching $1.34 trillion.
+3. **Tesla FSD Priced Higher in China Than in the US**: Tesla's FSD feature is priced at 64,000 yuan in China, higher than the $8,000 (approximately 58,000 yuan) in the US, due to Chinese regulations and localization needs.
+4. **Hamas Transfers Palestinian Prisoners**: Hamas has handed over 97 Palestinian prisoners to Egypt.
+5. **Multiple Explosions in Kyiv, Ukraine**: The Ukrainian capital, Kyiv, experienced multiple explosions, indicating heightened tensions.
+6. **Global Solar Installation Growth Forecast**: Global solar installations are expected to grow by 10% in 2025, driven by demand in emerging markets.
+7. **Indian Stock Market Predicted to Rise**: The Nifty 50 index is expected to reach 24,000 points by mid-2025.
+8. **Hamas Transfers Bodies of Israeli Captives**: Hamas has handed over the bodies of four Israeli captives, which will be transferred to Israel via the Red Cross.
+9. **Starlink May Replace Verizon for FAA Airspace Upgrade**: The FAA may cancel its contract with Verizon and switch to SpaceX's Starlink for airspace system upgrades.
+10. **Trump to Hold Press Conference with UK Prime Minister**: Trump will hold a press conference with the UK Prime Minister at 2 PM Eastern Time on Thursday.
+11. **Media Outlets Criticize White House Press Restrictions**: AP, Reuters, and Bloomberg issued a joint statement criticizing the White House for restricting press access to cabinet meetings, calling it harmful to information dissemination.
+12. **SEC and Justin Sun Seek Settlement**: Tron founder Justin Sun and the SEC are seeking a settlement, pausing the 2023 lawsuit.
+13. **Japanese Rice Prices Surge 90%**: Rice prices in Japan have surged 90% compared to last year, sparking public dissatisfaction.
+14. **US DOJ Blocks Trump's Unfreezing of Foreign Aid**: The DOJ filed an emergency application to block the Trump administration from unfreezing nearly $2 billion in foreign aid.
+15. **Cubans Rally Against US Blockade**: Tens of thousands of Cubans rallied to condemn US hostile policies towards Cuba, demanding the return of Guantanamo territory.
+16. **UN Warns of Stalled AIDS Prevention**: The UN warned that US funding cuts have stalled AIDS prevention efforts globally, threatening the health of those infected.
+17. **EU to Respond Firmly to Trade Barriers**: The European Commission stated it will respond firmly to US tariffs, emphasizing the EU as the world's largest free trade market.
+18. **Trump Administration Cancels Most Foreign Aid Contracts**: The Trump administration canceled most foreign aid contracts, insisting it cannot comply with court orders to make payments.
+19. **Trump Says He May Not Achieve Russia-Ukraine Peace**: Trump stated that peace between Russia and Ukraine may not be achievable, but he hopes for peace.
+20. **Global Temperature Rise Followed by Drop**: Temperatures in central and eastern China are rising, but a strong cold front in early March will cause a sharp drop.
