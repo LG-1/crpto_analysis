@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 import json
 
 
-DRIVER_PTH = "/Users/liguang/WrokSpace/8889_crpto_analysis/crpto_analysis/aipy/recruitment/chromedriver"
+DRIVER_PTH = "~/WrokSpace/8889_crpto_analysis/crpto_analysis/aipy/recruitment/chromedriver"
 
 def init_driver():
     """初始化Selenium WebDriver"""
