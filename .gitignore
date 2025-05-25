@@ -163,6 +163,9 @@ cython_debug/
 
 .vscode/
 
-notebooks/deepseek-v3/keys.py
+notebooks/deepseek_v3/keys.py
+aipy/recruitment/liepin/
+notebooks/recruitment/
+notebooks/deepseek_v3/deepseek_json.py
 
 .DS_Store
