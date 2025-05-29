@@ -13,30 +13,16 @@ from selenium.webdriver.support import expected_conditions as EC
 import numpy as np
 import pandas as pd
 
-from utils import init_driver, save_to_json, read_json
-
-driver = init_driver()
+from utils import init_driver, save_to_json, read_json, expand_single_job_info
 
 # 全局配置
 REQUEST_DELAY = 2  # 请求间隔(秒)
 MAX_RETRIES = 3    # 最大重试次数
 
-def get_random_headers():
-    ua = UserAgent()
-    return {
-        'User-Agent': ua.random,
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-        'Accept-Language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        'Referer': 'https://www.liepin.com/'
-    }
-
         
-def switch_to_sh(url, retry=0):
+def switch_to_sh(driver, url, retry=0):
     driver.get(url)
-    wait_time = 3
+    wait_time = 1
     
     # 上海
     city_trigger = WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.CLASS_NAME, "option-item-select-city")))
@@ -46,11 +32,10 @@ def switch_to_sh(url, retry=0):
     shanghai_option = WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, "//div[@title='上海']")))
     shanghai_option.click()
 
-    time.sleep(2)
-
     # IT互联网技术
     cate_trigger = WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.CLASS_NAME, "option-item-select-job")))
     cate_trigger.click()
+    # time.sleep(2)
 
     # 根据 input 属性定位选项
     it_option = WebDriverWait(driver, wait_time).until(EC.element_to_be_clickable((By.XPATH, "//div[@title='IT互联网技术']")))
@@ -80,31 +65,11 @@ def parse_job_list(html):
     
     return jobs
 
-def scrape_all_jobs(base_url=''): 
+def scrape_all_jobs(driver, base_url=''): 
     def expand_jobs_info(jobs):
         all_jobs = []
         for job in jobs:
-            # 获取职位详情
-            driver.get(job['url'])
-            detail_html = driver.page_source
-            if detail_html:
-                detail_soup = BeautifulSoup(detail_html, 'html.parser')
-
-                company_card = detail_soup.select_one('.company-card')
-                company_name = company_card.select_one(".ellipsis-1").get_text(strip=True)
-                company_url = company_card['data-href']
-
-                paragraphs = detail_soup.select_one('.job-intro-container').select('.paragraph')
-
-                if len(paragraphs) > 0:
-                    job['职位介绍'] = paragraphs[0].select_one('dd').get_text(strip=True)
-
-                if len(paragraphs) > 1:
-                    job['其它信息'] = paragraphs[1].select_one('dd').get_text(strip=True)
-
-                job['公司名称'] = company_name
-                job['公司链接'] = company_url
-
+            job = expand_single_job_info(job)
             print(f"已抓取: {job['title']}")
             all_jobs.append(job)
 
@@ -123,11 +88,11 @@ def scrape_all_jobs(base_url=''):
             return is_disabled_class or is_aria_disabled
         except:
             return True
-        
+    
     all_jobs = []
     page = 1
 
-    switch_to_sh(f"{base_url}")
+    switch_to_sh(driver, f"{base_url}")
     html = driver.page_source
     
     while True:      
@@ -158,8 +123,9 @@ def scrape_all_jobs(base_url=''):
 
 
 def main(base_url='', output_file=''):
+    driver = init_driver()
     try:
-        jobs = scrape_all_jobs(base_url)
+        jobs = scrape_all_jobs(driver, base_url)
         if jobs:
             save_to_json(jobs, output_file)
             __result__ = {
@@ -180,16 +146,17 @@ def main(base_url='', output_file=''):
         }
 
 if __name__ == "__main__":
+    sub_folder = "liepin-20250528"
+
     root_path = os.path.dirname(os.path.abspath(__file__))
-    sub_folder = "liepin"
-    root_folder = os.path.join(root_path, 'liepin')
+    root_folder = os.path.join(root_path, sub_folder)
     if not os.path.exists(root_folder):
         os.makedirs(root_folder)
 
     company_map = {"申通快递": "8076592", "用友": "5634845"}
-    debug_companies = ["来也科技"]
+    debug_companies = ["SHEIN"]
 
-    meta_df = pd.read_excel("~/个人文档/个人简历202505/备选公司列表.xlsx")
+    meta_df = pd.read_excel("input/meta_df/备选公司列表.xlsx")
     meta_df['liepin_id'] = meta_df['liepin_id'].fillna('').map(lambda x: str(int(x)) if x else '')
     company_map = {k: v for k, v in zip(meta_df['公司名称'], meta_df['liepin_id']) if v 
                 #    and k in debug_companies
@@ -207,3 +174,4 @@ if __name__ == "__main__":
         print(f"\n\n===================正在抓取 {company_name} 的职位数据...")
         output_file = f"{sub_folder}/{output_file_name}"
         main(base_url, output_file)
+        # time.sleep(15)

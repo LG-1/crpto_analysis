@@ -164,8 +164,11 @@ cython_debug/
 .vscode/
 
 notebooks/deepseek_v3/keys.py
-aipy/recruitment/liepin/
+aipy/recruitment/liepin*
 notebooks/recruitment/
 notebooks/deepseek_v3/deepseek_json.py
+aipy/recruitment/input/meta_df
 
 .DS_Store
+aipy/recruitment/chromedriver
+aipy/recruitment/local_consitants.py
